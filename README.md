@@ -2,8 +2,6 @@
 
 This repository explores the concepts of generalizability and diversity in the context of **Direct Preference Optimization (DPO)** and **Reinforcement Learning from Human Feedback (RLHF)**. The experiments and analyses aim to compare these two approaches to better understand their respective strengths and weaknesses in generating diverse yet generalizable outputs.
 
-![Visualization 1](https://github.com/PranavGrandhi/DPO_RLHF/assets/39693342/4c7b63fa-5804-4edc-9985-7df3c39ce813)
-![Visualization 2](https://github.com/PranavGrandhi/DPO_RLHF/assets/39693342/3ffa2b75-d138-46d8-a0df-4a57d7a9a6ff)
 
 ## Table of Contents
 
@@ -36,27 +34,6 @@ The goal of this project is to provide a comprehensive comparison between Direct
 
 ## Getting Started
 
-### Prerequisites
-
-- Python 3.8 or higher
-- Jupyter Notebook
-- Required Python packages (listed in `requirements.txt`)
-
-### Installation
-
-1. Clone the repository:
-
-    ```bash
-    git clone https://github.com/yourusername/DPO_RLHF.git
-    cd DPO_RLHF
-    ```
-
-2. Install dependencies:
-
-    ```bash
-    pip install -r requirements.txt
-    ```
-
 ## Usage
 
 1. Open the Jupyter notebooks in your preferred environment:
@@ -73,6 +50,10 @@ The results of our experiments show:
 
 - **DPO**: Tends to offer more robust generalizability across varied datasets but may sacrifice some degree of diversity in outputs.
 - **RLHF**: Often achieves greater diversity in outputs, particularly when tuned with diverse human feedback, but may lack in generalizability across datasets not seen during training.
+
+  
+![Visualization 1](https://github.com/PranavGrandhi/DPO_RLHF/assets/39693342/4c7b63fa-5804-4edc-9985-7df3c39ce813)
+![Visualization 2](https://github.com/PranavGrandhi/DPO_RLHF/assets/39693342/3ffa2b75-d138-46d8-a0df-4a57d7a9a6ff)
 
 Visualizations of these results can be found in the provided figures and notebooks.
 
